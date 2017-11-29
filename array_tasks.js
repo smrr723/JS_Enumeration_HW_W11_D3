@@ -17,7 +17,7 @@ var arrayTasks = {
 	},
 
 
-	sum: function (arr) {
+	sum: (arr) => {
 		var summed = arr.reduce((accumulator, currentValue) => accumulator + currentValue);
 		return summed;
 	},
