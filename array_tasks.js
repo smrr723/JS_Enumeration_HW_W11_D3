@@ -1,35 +1,38 @@
 var arrayTasks = {
 
-	// concat: function (arr1, arr2) {
+	concat: function (arr1, arr2) {
+		return arr1.concat(arr2);
+	},
 
-	// },
+	insertAt: function (arr, itemToAdd, index) {
+		arr.splice(index, 0, itemToAdd);
+		return arr;
+	},
 
-	// insertAt: function (arr, itemToAdd, index) {
-		
-	// },
+	square: function (arr) {
+		var squared = arr.map(arrItem => arrItem * arrItem);
+		return squared;
+	},
 
-	// square: function (arr) {
-		
-	// },
+	sum: function (arr) {
+		var summed = arr.reduce((accumulator, currentValue) => accumulator + currentValue);
+		return summed;
+	},
 
-	// sum: function (arr) {
-		
-	// },
+	findDuplicates: function (arr) {
 
-	// findDuplicates: function (arr) {
-		
-	// },
+	},
 
 	// removeAndClone: function (arr, valueToRemove) {
-		
+
 	// },
 
 	// findIndexesOf: function (arr, itemToFind) {
-		
+
 	// },
 
 	// sumOfAllEvenNumbersSquared: function (arr) {
-		
+
 	// }
 
 }
